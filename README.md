@@ -5,7 +5,7 @@ Help this article to grow up and become a solide resource for graphic programmer
 -------------
 ## Summary
 - [Albedo](##-Albedo-/-Diffuse-color-/-Base-color: "Goto albedo part")
-- [VAT (vetex animation texture)](##-VAT-(vetex-animation-texture): "Goto VAT part")
+- [VAT (vertex animation texture)](##-VAT-(vertex-animation-texture): "Goto VAT part")
 - [Flow map](##-Flow-map: "Goto flow map: part")
 - [Gradient map](##-Gradient-map: "Goto gradient map part")
 - [Transform color thanks to matrix](##-Transform-color-thanks-to-matrix: "Goto gradient map part")
@@ -24,7 +24,7 @@ Texture that store the brut color of the pixel
 ### Description:
 Texture that store a noise effect and that will be usefull to avoid flat aspect of nearest texture. This effect give the illusion that the texture containe more detail.
 
-### Characteristique:
+### Characteristics:
 - Monochrome
 - Blended with albedo
 - Can be small and tiled
@@ -42,14 +42,14 @@ With                                                      |          Without
 
 -------------------
 
-## VAT (vetex animation texture):
+## VAT (vertex animation texture):
 ### Description:
 Texture that store animation. Each pixel is the local position (or normal) of a vertex. All vertex is in line and animation key correspond to the row. 
 
-### Characteristique:
+### Characteristics:
 - RGB
 - GPU animation only (static mesh in CPU)
-- Avoid data transfer frmo CPU to GPU
+- Avoid data transfer fro CPU to GPU
 - Without bone (without link for colllider, object...). Great for background animation
 - Blend is possible with another VAT
 
@@ -68,7 +68,7 @@ Texture that store animation. Each pixel is the local position (or normal) of a 
 Flow map is a texture that allow user to create movement thanks to the UV.
 This technical is based on the UV tiling but with more complexe movement
 
-### Characteristique:
+### Characteristics:
 - R, RG, RGB, RGBA
 
 <img src="Image/FlowMap.png" height=400>
@@ -83,7 +83,7 @@ This technical is based on the UV tiling but with more complexe movement
 ### Description:
 Gradiant map is a technical to color monochrome texture fastly and with flexibilty. User can change the gradient map to obtain differentes color effects.
 
-### Characteristique:
+### Characteristics:
 - RGB, RGBA
 
 <img src="Image/grandientMap.png" height=400>
