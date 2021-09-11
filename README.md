@@ -8,7 +8,7 @@ Help this article to grow up and become a solide resource for graphic programmer
 - [VAT (vetex animation texture)](##-VAT-(vetex-animation-texture): "Goto VAT part")
 - [Flow map](##-Flow-map: "Goto flow map: part")
 - [Gradient map](##-Gradient-map: "Goto gradient map part")
-- [Transform color thank to matrix](##-Transform-color-thank-to-matrix: "Goto gradient map part")
+- [Transform color thanks to matrix](##-Transform-color-thanks-to-matrix: "Goto gradient map part")
 - [Contributor](##-Contributor "Goto contributor part")
 -------------
 
@@ -94,7 +94,7 @@ Gradiant map is a technical to color monochrome texture fastly and with flexibil
 -------------------
 
 -------------------
-## Transform color thank to matrix:
+## Transform color thanks to matrix:
 ### Description:
 Matrices can be use to translate, rotate, scale, shrink a vector. Color is a vector and this rule can be applyed to it.
 
